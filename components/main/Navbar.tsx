@@ -82,7 +82,7 @@ const Navbar = () => {
           <ul className="hidden lg:flex col-start-4 col-end-8 text-gray-300 items-center">
             <li
               className={`px-4 py-2 mx-2 cursor-pointer inline-block relative ${
-                activeLink === "home"
+                activeLink === "Home"
                   ? "text-[#FF8C00] shadow-[#FF8C00]"
                   : "text-[#FF8C00] font-bold hover:text-white"
               }`}
@@ -123,7 +123,7 @@ const Navbar = () => {
                   : "text-[#FF8C00] font-bold hover:text-white"
               }`}
             >
-              <Link href="blogs" onClick={() => setActiveLink("blogs")}>
+              <Link href="blogs" onClick={() => setActiveLink("Blogs")}>
                 Blogs
               </Link>
             </li>
